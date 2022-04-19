@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cab Registration</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="registration.css" >
+</head>
+<body>
+
+<div class="testbox">
+  <h1>Cab Registration</h1>
+
+  <form action="CabRegistration" method="post">
+    <hr>
+
+  <label id="icon" for="cabNo"><i class="icon-envelope "></i></label>
+  <input type="text" name="cabNo" id="cabNo" placeholder="Cab Number" required/>
+
+  <label id="icon" for="dName"><i class="icon-user"></i></label>
+  <input type="text" name="dName" id="dName" placeholder="Driver Name" required/>
+
+  <label id="icon" for="dMobile"><i class="icon-shield"></i></label>
+  <input type="tel" name="dMobile" id="dMobile" placeholder="Driver Mobile" required/>
+
+  <!-- <select  class="select1" name="dropdown">
+    <option value="1" class="p_select">Available</option>
+		<option value="2" class="p_select">Booked</option>
+  </select> -->
+
+  <!--
+  <label id="icon" for="sTime"><i class="icon-user"></i></label>
+  <input type="text" name="dName" id="dName" placeholder="Driver Name" required/>
+  
+  <label id="icon" for="dName"><i class="icon-user"></i></label>
+  <input type="text" name="dName" id="dName" placeholder="Driver Name" required/>
+-->
+
+	<button type="submit" class="button">Register</button>
+   <!-- <a href="#" class="button">Register</a> -->
+  </form>
+</div>
+
+</body>
+</html>
